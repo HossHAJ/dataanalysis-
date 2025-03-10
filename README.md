@@ -1,9 +1,17 @@
 # dataanalysis-
 
 # README FILE:
+### Team members :
+- Houcem HAJJI
+- Maximilien DEGUELDRE
+- Lina MISSOUR
+
 # Dataset Analysis
 
 Today, pollution from the transport sector accounts for 60.6% of total pollution in europe. That's why so many people are wondering whether they should buy a car to reduce pollution. In this dataset, we'll look at the different parameters that increase vehicle pollution, and how to choose the least polluting car possible.
+
+
+
 ## The Data
 - **What are the data?**  
   This dataset contains information about Cars, like their CO2 emissions, but also their horsepower, if they are hybrid or not, etc...
@@ -23,10 +31,17 @@ Today, pollution from the transport sector accounts for 60.6% of total pollution
 
 - **Describe the units, size of the sample/population:**  
   - **Units:** Each row represents one different Cars.  
-  - **Population/Sample size:**  5504 Cars.
+  - **Population/Sample size:**  55045 Cars.
 
 - **Number of variables:**  
   11 columns (variables).
+
+- **Sample of the data set :**
+  - **Sample size:**  2000 Cars.
+  - 
+ 
+     n=2000
+     
 
 ## Variables Description
 
