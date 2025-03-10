@@ -31,16 +31,17 @@ Today, pollution from the transport sector accounts for 60.6% of total pollution
 
 - **Describe the units, size of the sample/population:**  
   - **Units:** Each row represents one different Cars.  
-  - **Population/Sample size:**  55045 Cars.
+  - **Population:**  55045 Cars.
 
 - **Number of variables:**  
-  11 columns (variables).
+  30 columns (variables).
 
 - **Sample of the data set :**
   - **Sample size:**  2000 Cars.
-  - 
+  - **Number of variables:** 11 columns (variables).
+  
  
-     n=2000
+     
      
 
 ## Variables Description
