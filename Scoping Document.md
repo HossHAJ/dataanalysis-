@@ -118,7 +118,16 @@ To ensure high-quality visualization, we performed **EDA** :
 Our team collaborates using multiple tools to ensure seamless workflow and efficient progress tracking:
 - **GitHub:** Centralized repository for version control, code sharing, and tracking contributions.
 - **Weekly Meetings:** Virtual or in-person check-ins to discuss progress, challenges, and next steps.
+- 
+## **Roles & Responsibilities**
 
+
+- **Data Preprocessing & Cleaning (Houcem, Maximilien, Lina):** We acquire, clean, and format the dataset to ensure it is structured and ready for visualization.  
+- **Data Analysis & Exploratory Data Analysis (EDA) (Houcem, Maximilien, Lina):** We perform statistical analysis, detect outliers, and validate data reliability to enhance the accuracy of our insights.  
+- **Frontend Development (Lina, Houcem, Maximilien):** We design and implement an interactive visualization using D3.js, focusing on usability and clarity.  
+- **Documentation & Report Writing (Houcem, Maximilien):** We manage all project documentation, including the README.md and final report, ensuring clear explanations and structured content.  
+
+📌 **Note:** Our contributions are documented in **README.md** to maintain transparency and accountability throughout the project.  
 
  
 
