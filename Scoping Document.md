@@ -59,7 +59,7 @@ Start your search today and **reduce your impact on the environment!**
  # ** Data Sources & Processing**
 
 ## ** Dataset Selection**
-We are using **the "sampledataset.csv" dataset**, which contains detailed information about various car models, including:  
+We are using **the "mars-2014-complete.csv" dataset**, which contains detailed information about various car models, including:  
 - **Brand (Manufacturer)**  
 - **Maximum Power (HP)**  
 - **Fuel Consumption (L/100km)**  
@@ -70,60 +70,57 @@ This dataset is crucial for analyzing vehicle sustainability by comparing power,
 ---
 
 ## **✅ Strengths & ❌ Limitations of the Dataset**  
-### **✅ Strengths:**  
+### **Strengths:**  
 - **Comprehensive:** Covers multiple vehicle brands and models.  
 - **Relevant Variables:** Includes **power, fuel consumption, and CO₂ emissions**, essential for evaluating sustainability.  
 - **Structured Format:** Available in **CSV**, making it easy to process with Python, Pandas, and D3.js.  
 
-### **❌ Limitations:**  
+### **Limitations:**  
 - **Missing Data:** Some vehicles have **incomplete or missing fields** (e.g., missing power or CO₂ values).  
-- **Data Age:** Some records may not reflect the **latest emission standards** or new vehicle models.  
+  
 - **Inconsistent Formatting:** Some values may have **different units** or **extra spaces**, requiring cleaning.  
 
 ---
 
-## **🔄 Backup Plan if Data is Unavailable**  
+## **Backup Plan if Data is Unavailable**  
 If the dataset is incomplete or missing, we plan to:  
-- **Simulate missing data** using the **mean values** from similar vehicles.  
-- **Use alternative datasets**, such as **FuelEconomy.gov** or **ICCT reports**.  
+ 
 - **Manually fill gaps** by referencing manufacturer specifications where possible.  
 
 ---
 
-## **💾 Data Type & Format**  
+## **Data Type & Format**  
 - The dataset is in **CSV (Comma-Separated Values)** format.  
 - This is an **unstructured format**, but it is easy to parse and process using Python's **Pandas** library.  
 
 ---
 
-## **🔍 Exploratory Data Analysis (EDA) & Data Cleaning**  
-To ensure high-quality visualization, we performed **EDA** and **data wrangling**:
+## **Exploratory Data Analysis (EDA) & Data Cleaning**  
+To ensure high-quality visualization, we performed **EDA** :
 
-### **1️⃣ Handling Missing Values**  
+### **1 Handling Missing Values**  
 - **Dropped rows** with completely missing key parameters (Power, CO₂, Fuel Consumption).  
-- **Interpolated values** for partially missing data (e.g., averaging fuel consumption for similar models).  
 
-### **2️⃣ Standardizing Units**  
-- Converted any **inconsistent numerical values** to standard units (e.g., removing " kW" from power values).  
-- Rounded values for better visualization (e.g., limiting fuel consumption to 1 decimal place).  
+### **2️ Standardizing Units**  
+- Converted any **inconsistent numerical values** to standard units .  
 
-### **3️⃣ Filtering Data**  
+### **3️ Filtering Data**  
 - We only include **specific manufacturers** for clarity:  
   **Suzuki, Mercedes, Volkswagen, Renault, Alfa Romeo, Chevrolet, Fiat, Ferrari, Volvo, Nissan, BMW, Lexus**.  
 
-### **4️⃣ Detecting Outliers**  
+### **4️ Detecting Outliers**  
 - Used **box plots and histograms** to identify abnormal CO₂ or power values.  
-- **Removed extreme outliers** that were likely errors (e.g., 1000+ HP in a standard vehicle).  
+- **Removed extreme outliers** that were likely errors .
 
----
+# **Team Organization & Collaboration**
 
-## **📌 Key Takeaways**
-✔️ **Clean and structured data** ensures reliable visualization.  
-✔️ **Missing values were handled** using interpolation and removal strategies.  
-✔️ **Standardization and filtering** improved readability and accuracy.  
-✔️ **Exploratory analysis** helped detect and fix inconsistencies before visualization.  
+## **Communication & Collaboration**
+Our team collaborates using multiple tools to ensure seamless workflow and efficient progress tracking:
+- **GitHub:** Centralized repository for version control, code sharing, and tracking contributions.
+- **Weekly Meetings:** Virtual or in-person check-ins to discuss progress, challenges, and next steps.
 
-With this refined dataset, we can now build an **interactive, data-driven visualization** that effectively compares vehicle sustainability. 🚗🌱  
+
+ 
 
 
   
