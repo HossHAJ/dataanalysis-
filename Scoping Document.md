@@ -56,4 +56,74 @@ Start your search today and **reduce your impact on the environment!**
 ### ** What Sets Our Project Apart?**   
  **Encourages sustainable choices** by making green vehicle options more accessible!  
 
+ # ** Data Sources & Processing**
+
+## ** Dataset Selection**
+We are using **the "sampledataset.csv" dataset**, which contains detailed information about various car models, including:  
+- **Brand (Manufacturer)**  
+- **Maximum Power (HP)**  
+- **Fuel Consumption (L/100km)**  
+- **CO₂ Emissions (g/km)**  
+
+This dataset is crucial for analyzing vehicle sustainability by comparing power, efficiency, and environmental impact.
+
+---
+
+## **✅ Strengths & ❌ Limitations of the Dataset**  
+### **✅ Strengths:**  
+- **Comprehensive:** Covers multiple vehicle brands and models.  
+- **Relevant Variables:** Includes **power, fuel consumption, and CO₂ emissions**, essential for evaluating sustainability.  
+- **Structured Format:** Available in **CSV**, making it easy to process with Python, Pandas, and D3.js.  
+
+### **❌ Limitations:**  
+- **Missing Data:** Some vehicles have **incomplete or missing fields** (e.g., missing power or CO₂ values).  
+- **Data Age:** Some records may not reflect the **latest emission standards** or new vehicle models.  
+- **Inconsistent Formatting:** Some values may have **different units** or **extra spaces**, requiring cleaning.  
+
+---
+
+## **🔄 Backup Plan if Data is Unavailable**  
+If the dataset is incomplete or missing, we plan to:  
+- **Simulate missing data** using the **mean values** from similar vehicles.  
+- **Use alternative datasets**, such as **FuelEconomy.gov** or **ICCT reports**.  
+- **Manually fill gaps** by referencing manufacturer specifications where possible.  
+
+---
+
+## **💾 Data Type & Format**  
+- The dataset is in **CSV (Comma-Separated Values)** format.  
+- This is an **unstructured format**, but it is easy to parse and process using Python's **Pandas** library.  
+
+---
+
+## **🔍 Exploratory Data Analysis (EDA) & Data Cleaning**  
+To ensure high-quality visualization, we performed **EDA** and **data wrangling**:
+
+### **1️⃣ Handling Missing Values**  
+- **Dropped rows** with completely missing key parameters (Power, CO₂, Fuel Consumption).  
+- **Interpolated values** for partially missing data (e.g., averaging fuel consumption for similar models).  
+
+### **2️⃣ Standardizing Units**  
+- Converted any **inconsistent numerical values** to standard units (e.g., removing " kW" from power values).  
+- Rounded values for better visualization (e.g., limiting fuel consumption to 1 decimal place).  
+
+### **3️⃣ Filtering Data**  
+- We only include **specific manufacturers** for clarity:  
+  **Suzuki, Mercedes, Volkswagen, Renault, Alfa Romeo, Chevrolet, Fiat, Ferrari, Volvo, Nissan, BMW, Lexus**.  
+
+### **4️⃣ Detecting Outliers**  
+- Used **box plots and histograms** to identify abnormal CO₂ or power values.  
+- **Removed extreme outliers** that were likely errors (e.g., 1000+ HP in a standard vehicle).  
+
+---
+
+## **📌 Key Takeaways**
+✔️ **Clean and structured data** ensures reliable visualization.  
+✔️ **Missing values were handled** using interpolation and removal strategies.  
+✔️ **Standardization and filtering** improved readability and accuracy.  
+✔️ **Exploratory analysis** helped detect and fix inconsistencies before visualization.  
+
+With this refined dataset, we can now build an **interactive, data-driven visualization** that effectively compares vehicle sustainability. 🚗🌱  
+
+
   
