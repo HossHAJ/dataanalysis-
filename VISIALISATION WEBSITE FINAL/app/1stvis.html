@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Cars and CO2 emissions</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script defer src="chart1.js"></script>
+  <style>
+    body { font-family: Arial, sans-serif; text-align: center; }
+    #chart { display: flex; justify-content: center; margin-top: 50px }
+  </style>
+</head>
+<body>
+  <header class='navbar'> 
+      <!-- Header section with a navigation bar -->
+            <div class="logo">
+            
+        </div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html"><p>Home</p></a></li>
+                        <li><a href="README.html"><p>About us</p></a></li>
+                        <li><a href="sampledataset.csv"><p>The dataset</p></a></li>
+                        <li><a href="1stvis.html"><p>First Visualisation</p></a></li>
+                        <li><a href="2ndvis.html"><p>Second Visualisation</p></a></li>
+                        <li><a href="3rdvis.html"><p>Third Visualisation</p></a></li>
+                      <li><a href="4thvis.html"><p>Fourth Visualisation</p></a></li>
+                      <li><a href="5thvis.html"><p>Fifth Visualisation</p></a></li>
+                      <li><a href="conclusion.html"><p>Conclusion</p></a></li>
+                      <li><a href="#footer" class="scroll-button">Ready to buy ?</a></li>
+                      
+                      
+                      
+                        
+                    </ul>
+                </nav>
+    <a href="https://github.com/HossHAJ/dataanalysis-" target="_blank">
+    <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="30" alt="GitHub">
+</a>
+    
+    </header>
+  
+  <h1>Repartition of vehicles by brand and engine type</h1>
+    <div id="chart1"></div> 
+    <div class="container">
+    <h3>Graph Interpretation</h3>
+    <p>
+        This graph represents the cbr code of the different car brands.  
+        Each part of the pie chart represents a specific car brand, with its size indicating the number of cars for every brand present in the dataset. 
+        Finally, it's interactive, if you click on a brand you will see all the different cbr codes with their proportions in the brand.
+        We can see on this graph that the brands with the most cars are MERCEDES and VOLKSWAGEN.
+    </p>
+  
+</div>
+  
+  <div id="chart"></div>
+  <div class="container">
+<p>
+  <h3>
+    1. Diesel GO : 
+  </h3>
+    
+    - Highly polluting although diesel is oxides of nitrogen (NOx) and fine particulate emissions.     
+    - Emits around 2.68 kg of CO₂ per liter combusted.  
+  
+  <h3>
+    2. Gasoline ES:   
+  </h3>
+  
+    - Having fewer fine particulates than diesel but are higher in CO₂ per liter.     
+    - Approximately 2.34 kg CO₂ per liter combusted.  
+  
+    <h3>
+    3. Ethanol/bio-ethanol E85/ EH:  
+  </h3>
+  
+    - Depends on the source of the biofuel, agriculture (deforestation, fertilization) could result in an imprint.     
+    - Approximately 1.55 kg CO₂ per liter, depending on sourcing for biofuel.  
+  <h3>
+    4. LPG petroleum or gas/GP/ES gasoline:     
+  </h3>
+  
+     - LPG gas is a liquefaction of petroleum gas, therefore it is a good fuel with an  impact of CO₂ emissions , without particulates and low NOx.     
+    - Lack of particulates and approx 1.65 kg CO₂ per liter combusted.  
+  
+    <h3>
+      Initially and then rank from most to least polluting:  
+    </h3>
+  <ul>
+    
+    
+    <li><b>  1. Diesel (GO) → </b>High NOx emissions which is nitrogen oxides.  </li>
+    <li><b>2. Gasoline (ES) →</b> More CO₂ than diesel, but exhausting fewer air polutants.  </li>
+    <li><b>3. LPG/Gasoline (GP/ES) → </b>Few of air pollutants and somewhat less CO₂ combusted.  </li>
+    <li><b>4. Ethanol (EH) → </b>Best Carbon footprint
+ </ul>
+  
+  <h3>
+    To conclude on this chart, we can see that if we click on Lexus, we will find a major part of EH.
+  </h3>
+  </p>
+  </div>
+  </body>
+</html>

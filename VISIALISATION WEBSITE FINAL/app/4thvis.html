@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Cars and CO2 emissions</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script defer src="chart4.js"></script>
+  <style>
+    body { font-family: Arial, sans-serif; text-align: center; }
+    #chart { display: flex; justify-content: center; margin-top: 20px; }
+  </style>
+</head>
+<body>
+  <header class='navbar'> 
+            <div class="logo">
+            
+        </div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html"><p>Home</p></a></li>
+                        <li><a href="README.html"><p>About us</p></a></li>
+                        <li><a href="sampledataset.csv"><p>The dataset</p></a></li>
+                        <li><a href="1stvis.html"><p>First Visualisation</p></a></li>
+                        <li><a href="2ndvis.html"><p>Second Visualisation</p></a></li>
+                        <li><a href="3rdvis.html"><p>Third Visualisation</p></a></li>
+                        <li><a href="4thvis.html"><p>Fourth Visualisation</p></a></li>
+                      <li><a href="5thvis.html"><p>Fifth Visualisation</p></a></li>
+                      <li><a href="conclusion.html"><p>Conclusion</p></a></li>
+                      <li><a href="#footer" class="scroll-button">Ready to buy ?</a></li>
+                      
+                    </ul>
+                </nav>
+    <a href="https://github.com/HossHAJ/dataanalysis-" target="_blank">
+    <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="30" alt="GitHub">
+</a>
+    </header>
+
+
+   <h2>
+    Radar chart of the car's proprieties in relation to the car's brand
+  </h2>
+  <div id="chart"></div>
+  <div class="container">
+    <h3>Car Performance Comparison</h3>
+    <label for="car-select">Select a brand:</label>
+    <select id="car-select"></select>
+    <p>
+      This radar chart compares car brands based on several parameters:
+        <ul>
+            <ol><strong>Max Power</strong>: the maximum horsepower of the engine.</ol>
+            <ol><strong>Fuel Consumption</strong>: the average fuel usage, typically in liters per 100 km.</ol>
+            <ol><strong>CO2 Emissions</strong>: the amount of CO2 emitted by the car in grams per km.</ol>
+        </ul>
+    </p>
+    <div id="chart"></div>
+</div>
+</body>
+<footer id="footer" class="footer">
+    <p>🔗 Find your next eco-friendly ride:</p>
+    <ul>
+        <li><a href="https://www.suzuki.com" target="_blank">Suzuki</a></li>
+        <li><a href="https://www.mercedes-benz.com" target="_blank">Mercedes</a></li>
+        <li><a href="https://www.volkswagen.com" target="_blank">Volkswagen</a></li>
+        <li><a href="https://www.renault.com" target="_blank">Renault</a></li>
+        <li><a href="https://www.alfaromeo.com" target="_blank">Alfa Romeo</a></li>
+        <li><a href="https://www.chevrolet.com" target="_blank">Chevrolet</a></li>
+        <li><a href="https://www.fiat.com" target="_blank">Fiat</a></li>
+        <li><a href="https://www.ferrari.com" target="_blank">Ferrari</a></li>
+        <li><a href="https://www.volvocars.com" target="_blank">Volvo</a></li>
+        <li><a href="https://www.nissan-global.com" target="_blank">Nissan</a></li>
+        <li><a href="https://www.bmw.com" target="_blank">BMW</a></li>
+        <li><a href="https://www.lexus.com" target="_blank">Lexus</a></li>
+    </ul>
+    <p>&copy; 2025 Eco-Friendly Car Finder. All rights reserved.</p>
+</footer>
+</html>
