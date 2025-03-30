@@ -50,61 +50,63 @@ Then, choice of a dataset found on data.gov
  
 ### 12th March: Beginning of the website
  
-- Houcem: Writing of the introduction, and import of the readme.
+- Houcem: Wrote the introduction and imported the README file into the website.
 - Maximilien: Creation of the different HTML web pages/CSS/import the dataset on the web page, linking the pages between them.
 - Lina: Creation of the different HTML web pages/CSS/import the dataset on the web page, linking the pages between them.
  
 ### 13th March:
  
-- Houcem: Creating the Second visualization.
+- Houcem: Started working on the second visualization, focusing on structuring the data and preparing the graphical representation.
 - Maximilien: Creating the First visualization.
 - Lina: Making the structure of the different HTML pages + styling them with CSS + creating the README file on HTML.
  
 ### 15th March:
  
-- Houcem: Creating the Second visualization.
+- Houcem: Continued refining and improving the second visualization, adding interactivity and ensuring correct data representation.
 - Maximilien: Creating the First visualization.
 - Lina: Creating the Third Visualisation.
  
 ### 16th March:
  
-- Houcem: Creating the Second visualization.
+- Houcem: Debugged and added interpretations to the second visualization.
+          Debugged issues across all pages to ensure smooth functionality.
 - Maximilien: Creating the First visualization.
 - Lina: Creating the Third Visualization.
  
 ### 19th March:
  
-- Houcem: Creating the Fourth visualization.
+- Houcem: Created the fourth visualization, ensuring meaningful insights from the dataset.
 - Maximilien: Creating the Fifth visualization.
 - Lina: Creating the Third Visualization + Making the interpretations for the graphs and styling the website.
  
 ### 21th March:
  
-- Houcem: Creating the Fourth visualization + adding some interactive features on the website + styling the navigation bar.
+- Houcem: Improved the fourth visualization, adding new interactive features to enhance user experience.
+          Styled the navigation bar for better usability.
 - Maximilien: Creating the Fifth visualization + managing some buggs with the D3.js visualizations on the js pages + styling the website.
 - Lina: Managing some buggs with the Third visualization on the js page + Making the interpretation for the graphs + adding some features on the HTML pages.
  
 ### 22th March:
  
-- Houcem: Making the scoping document.
+- Houcem: Worked on the scoping document, detailing the project's scope, objectives, and methodology
 - Maximilien: Making the interpretation for the 4th and 5th graphs.
 - Lina: Changing the 3rd visualization (from a horizontal bar chart to a bubble chart).
  
 ### 23th March:
  
-- Houcem: Making the scoping document.
+- Houcem: Created a "Ready to Buy" button on all pages, allowing users to quickly navigate to the footer section where they can proceed with the purchase after selecting a car.
 - Maximilien: Changing the 5th visualization, because the last one had some buggs and didn't represent well the website.
 - Lina: Making the interpretation of the 3rd graph + Finishing the 3rd graph + Managing some buggs with the interactive features of this visualization.
  
 ### 26th March:
  
-- Houcem: Making the scoping document + Teaser.
+- Houcem: Finalized the scoping document and started working on the teaser (a short introduction or promotional material for the project).
 - Maximilien: Making the Conclusion.
 - Lina: Making the sketches + Teaser.
  
 ### 29th March:
  
-- Houcem: Making the document to explain how to lunch the visualization.
+- Houcem: Wrote a detailed document explaining how to launch and interact with the visualizations.
 - Maximilien: Making the Conclusion.
 - Lina: Making the sketches.
  
