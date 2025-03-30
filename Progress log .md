@@ -93,7 +93,7 @@ Then, choice of a dataset found on data.gov
 ### 23th March:
  
 - Houcem: Making the scoping document.
-- Maximilien: Changing the 5th visualization.
+- Maximilien: Changing the 5th visualization, because the last one had some buggs and didn't represent well the website.
 - Lina: Making the interpretation of the 3rd graph + Finishing the 3rd graph + Managing some buggs with the interactive features of this visualization.
  
 ### 26th March:
