@@ -98,7 +98,7 @@
 
 ### 29th March:
 
-- Houcem: .
+- Houcem: Making the document to explain how to lunch the visualisation.
 - Maximilien: Making the Conclusion.
 - Lina: Making the sketches.
 
