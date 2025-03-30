@@ -1,6 +1,6 @@
 # Exploratory data analysis:
 
-### 3th March:
+### 3rd March:
 
 - Houcem: Cleaning of the dataset.
 - Maximilien: Creation of the Readme file.
@@ -51,19 +51,19 @@
 ### 13th March:
 
 - Houcem: Creating the Second visualization.
-- Maximilien: Creating the Second visualization.
+- Maximilien: Creating the First visualization.
 - Lina: Creating the Third Visualisation.
 
 ### 15th March:
 
 - Houcem: Creating the Second visualization.
-- Maximilien: Creating the Second visualization.
+- Maximilien: Creating the First visualization.
 - Lina: Creating the Third Visualisation.
 
 ### 16th March:
 
 - Houcem: Creating the Second visualization.
-- Maximilien: Creating the Second visualization.
+- Maximilien: Creating the First visualization.
 - Lina: Creating the Third Visualisation.
 
 ### 19th March:
