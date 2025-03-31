@@ -79,20 +79,20 @@ Then, choice of a dataset found on data.gov
 - Maximilien: Creating the Fifth visualization.
 - Lina: Creating the Third Visualization + Making the interpretations for the graphs and styling the website.
  
-### 21th March:
+### 21st March:
  
 - Houcem: Improved the fourth visualization, adding new interactive features to enhance user experience.
           Styled the navigation bar for better usability.
 - Maximilien: Creating the Fifth visualization + managing some buggs with the D3.js visualizations on the js pages + styling the website.
 - Lina: Managing some buggs with the Third visualization on the js page + Making the interpretation for the graphs + adding some features on the HTML pages.
  
-### 22th March:
+### 22nd March:
  
 - Houcem: Worked on the scoping document, detailing the project's scope, objectives, and methodology
 - Maximilien: Making the interpretation for the 4th and 5th graphs.
-- Lina: Changing the 3rd visualization (from a horizontal bar chart to a bubble chart).
+- Lina: Changing the 3rd visualization (from a horizontal bar chart to a bubble chart), styling the bubble chart in order to have more interactive features.
  
-### 23th March:
+### 23rd March:
  
 - Houcem: Created a "Ready to Buy" button on all pages, allowing users to quickly navigate to the footer section where they can proceed with the purchase after selecting a car.
 - Maximilien: Changing the 5th visualization, because the last one had some buggs and didn't represent well the website.
@@ -101,12 +101,12 @@ Then, choice of a dataset found on data.gov
 ### 26th March:
  
 - Houcem: Finalized the scoping document and started working on the teaser (a short introduction or promotional material for the project).
-- Maximilien: Making the Conclusion.
-- Lina: Making the sketches + Teaser.
+- Maximilien: Making the Conclusion, responding to the initial question: Which least polluting car to buy?
+- Lina: Making the sketches+design iterations+key decisions.
  
 ### 29th March:
  
 - Houcem: Wrote a detailed document explaining how to launch and interact with the visualizations.
 - Maximilien: Making the Conclusion.
-- Lina: Making the sketches.
+- Lina: Making the sketches+design iterations+key decisions.
  
